@@ -1,0 +1,19 @@
+src/
+├── components/
+│   ├──Footer/
+│   ├──Navbar/
+│   ├──Profile/
+│   ├──Reg_&_Auth/
+│      ├──Auth.js
+│      ├──FormSuccess.jsx
+│      ├──LoginForm.jsx
+│      ├──RegistrationForm.jsx
+│      ├──server.js
+├── Main/
+├── page/
+├── Project/
+│
+├──App.css
+├──App.js
+├──index.css
+├──index.js
