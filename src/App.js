@@ -1,6 +1,6 @@
 /* App.js */
 import React, { Suspense, lazy } from "react"
-import { Navigate, Route, HashRouter as Router, Routes } from 'react-router-dom'
+import { Navigate, Route, BrowserRouter as Router, Routes } from 'react-router-dom'
 import './App.css'
 
 // Немедленная загрузка критических компонентов для Home
@@ -34,7 +34,7 @@ function Home() {
 
 function App() {
   return (
-    <Router>
+    <Router basename="/portfolio">
       <Suspense fallback={<LoadingScreen />}>
         <Routes>
           <Route path="/" element={<Navigate to="/home" replace />} />

@@ -131,7 +131,7 @@ const AboutMe = () => {
                             className="mt-8 flex gap-4"
                         >
                             <motion.a
-                                href="#/portfolio"
+                                href="/portfolio/portfolio"
                                 whileHover={{ scale: 1.05 }}
                                 whileTap={{ scale: 0.95 }}
                                 className="px-6 py-3 bg-orange-400 text-white rounded-lg font-semibold hover:bg-orange-500 transition-colors duration-300"
@@ -139,7 +139,7 @@ const AboutMe = () => {
                                 View Portfolio
                             </motion.a>
                             <motion.a
-                                href="#/contacts"
+                                href="/portfolio/contacts"
                                 whileHover={{ scale: 1.05 }}
                                 whileTap={{ scale: 0.95 }}
                                 className="px-6 py-3 border-2 border-orange-400 text-orange-400 rounded-lg font-semibold hover:bg-orange-400 hover:text-white transition-colors duration-300"
