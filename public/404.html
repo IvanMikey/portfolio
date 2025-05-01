@@ -8,18 +8,22 @@
 		// Single Page Apps for GitHub Pages
 		// MIT License
 		// https://github.com/rafgraph/spa-github-pages
-		var segmentCount = 1
 		var l = window.location
+		var portfolioPath = '/portfolio'
 
-		// Сохраняем текущий путь в sessionStorage
+		// Save the full path including /portfolio/
 		sessionStorage.redirect = l.pathname + l.search + l.hash
 
+		// Ensure we keep the /portfolio/ part in the path
+		var newPath = portfolioPath + '/?returnTo=' +
+			l.pathname.replace(portfolioPath, '') +
+			(l.search || '') +
+			(l.hash || '')
+
 		l.replace(
-			l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
-			l.pathname.split('/').slice(0, segmentCount + 1).join('/') + '/?p=/' +
-			l.pathname.slice(1).split('/').slice(segmentCount).join('/').replace(/&/g, '~and~') +
-			(l.search ? '&q=' + l.search.slice(1).replace(/&/g, '~and~') : '') +
-			l.hash
+			l.protocol + '//' + l.hostname +
+			(l.port ? ':' + l.port : '') +
+			newPath
 		);
 	</script>
 </head>

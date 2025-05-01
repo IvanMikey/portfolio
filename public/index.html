@@ -36,7 +36,12 @@
       var redirect = sessionStorage.redirect
       delete sessionStorage.redirect
       if (redirect && redirect !== location.href) {
-        history.replaceState(null, null, redirect.split('/portfolio')[1] || '/')
+        var searchParams = new URLSearchParams(location.search)
+        var returnTo = searchParams.get('returnTo')
+        if (returnTo) {
+          // Ensure we keep /portfolio in the path
+          history.replaceState(null, null, '/portfolio' + returnTo)
+        }
       }
     })();
   </script>
