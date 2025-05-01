@@ -15,7 +15,7 @@ const projects = [
         id: 2, 
         title: "Portfolio Project", 
         description: "Описание", 
-        path: "/projects/portfolio", 
+        path: "/portfolio/portfolio", 
         associatedWords: ["portfolio", "website", "development"], 
         image: "portfolio-image.jpg" 
     },
@@ -23,7 +23,7 @@ const projects = [
         id: 3, 
         title: "Game Web", 
         description: "Описание", 
-        path: "/projects/game", 
+        path: "/portfolio/game", 
         associatedWords: ["game", "store"], 
         image: "game-image.jpg" 
     },
@@ -89,9 +89,9 @@ function Navbar() {
     }, [location]);
 
     const navLinks = [
-        { path: "/home", label: "Home" },
-        { path: "/portfolio", label: "Portfolio" },
-        { path: "/contacts", label: "Contacts" }
+        { path: "/portfolio/home", label: "Home" },
+        { path: "/portfolio/portfolio", label: "Portfolio" },
+        { path: "/portfolio/contacts", label: "Contacts" }
     ];
 
     return (

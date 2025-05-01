@@ -36,9 +36,9 @@ const socialLinks = [
 ]
 
 const navLinks = [
-    { path: "/", label: "HOME" },
-    { path: "/Portfolio", label: "PORTFOLIO" },
-    { path: "/Contacts", label: "CONTACTS" }
+    { path: "/portfolio/home", label: "HOME" },
+    { path: "/portfolio/portfolio", label: "PORTFOLIO" },
+    { path: "/portfolio/contacts", label: "CONTACTS" }
 ]
 
 const Footer = () => {
