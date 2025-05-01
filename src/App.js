@@ -37,7 +37,7 @@ function App() {
     <Router basename="/portfolio">
       <Suspense fallback={<LoadingScreen />}>
         <Routes>
-          <Route path="/" element={<LoadingScreen />} />
+          <Route path="/" element={<Home />} />
           <Route path="/home" element={<Home />} />
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/contacts" element={<Contacts />} />
