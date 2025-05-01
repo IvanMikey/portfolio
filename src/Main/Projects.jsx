@@ -115,12 +115,12 @@ const Projects = () => {
             viewport={{ once: true }}
             className="p-1 bg-gray-800"
         >
-            <div className="max-w-7xl mx-auto px-4 py-12">
+            <div className="max-w-7xl mx-auto px-4 py-8">
                 <motion.div
                     initial={{ opacity: 0, y: 20 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
-                    className="text-center mb-12"
+                    className="text-center mb-8"
                 >
                     <h2 className="text-4xl md:text-5xl font-bold text-orange-400 mb-4">
                         PROJECTS
@@ -128,7 +128,7 @@ const Projects = () => {
                     <div className="w-24 h-1 bg-orange-400 mx-auto rounded-full"></div>
                 </motion.div>
 
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
                     {projects.map((project) => (
                         <ProjectCard key={project.id} project={project} />
                     ))}
@@ -138,7 +138,7 @@ const Projects = () => {
                     initial={{ opacity: 0, y: 20 }}
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
-                    className="mt-12"
+                    className="mt-8"
                 >
                     <Swiper
                         pagination={{
@@ -151,7 +151,7 @@ const Projects = () => {
                         }}
                         modules={[Pagination, Navigation, Autoplay]}
                         className="mySwiper rounded-xl overflow-hidden"
-                        style={{ maxWidth: '100%', height: '500px' }}
+                        style={{ maxWidth: '100%', height: '400px' }}
                     >
                         {projects.map((project) => (
                             <SwiperSlide key={project.id}>
@@ -162,15 +162,15 @@ const Projects = () => {
                                         className="w-full h-full object-cover"
                                     />
                                     <div className="absolute inset-0 bg-gradient-to-t from-gray-900 to-transparent flex items-end">
-                                        <div className="p-8 text-white">
-                                            <h3 className="text-2xl font-bold mb-2">{project.title}</h3>
-                                            <p className="mb-4">{project.description}</p>
+                                        <div className="p-6">
+                                            <h3 className="text-2xl font-bold mb-2 text-white">{project.title}</h3>
+                                            <p className="mb-4 text-gray-200">{project.description}</p>
                                             <div className="flex gap-4">
                                                 <a
                                                     href={project.github}
                                                     target="_blank"
                                                     rel="noopener noreferrer"
-                                                    className="flex items-center gap-2 px-4 py-2 bg-gray-800 rounded-lg hover:bg-gray-700 transition-colors duration-300"
+                                                    className="flex items-center gap-2 px-4 py-2 bg-gray-800 rounded-lg hover:bg-gray-700 transition-colors duration-300 text-white"
                                                 >
                                                     <FaGithub />
                                                     <span>View Code</span>
@@ -179,7 +179,7 @@ const Projects = () => {
                                                     href={project.live}
                                                     target="_blank"
                                                     rel="noopener noreferrer"
-                                                    className="flex items-center gap-2 px-4 py-2 bg-orange-400 rounded-lg hover:bg-orange-500 transition-colors duration-300"
+                                                    className="flex items-center gap-2 px-4 py-2 bg-orange-400 rounded-lg hover:bg-orange-500 transition-colors duration-300 text-white"
                                                 >
                                                     <FaExternalLinkAlt />
                                                     <span>Live Demo</span>
