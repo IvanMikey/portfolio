@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.3078b9c6.css",
+    "main.css": "/portfolio/static/css/main.5cdd2d10.css",
     "main.js": "/portfolio/static/js/main.f2f1aca7.js",
     "static/js/633.330255d7.chunk.js": "/portfolio/static/js/633.330255d7.chunk.js",
     "static/js/934.c1f598ea.chunk.js": "/portfolio/static/js/934.c1f598ea.chunk.js",
@@ -24,7 +24,7 @@
     "static/media/1667490691_51-sportishka-com-p-gora-pabaku-pinterest-51.jpg": "/portfolio/static/media/1667490691_51-sportishka-com-p-gora-pabaku-pinterest-51.c22848063206e3c1b1ab.jpg",
     "static/media/me.jpg": "/portfolio/static/media/me.7a6ab3de03c4ec951d3d.jpg",
     "index.html": "/portfolio/index.html",
-    "main.3078b9c6.css.map": "/portfolio/static/css/main.3078b9c6.css.map",
+    "main.5cdd2d10.css.map": "/portfolio/static/css/main.5cdd2d10.css.map",
     "main.f2f1aca7.js.map": "/portfolio/static/js/main.f2f1aca7.js.map",
     "633.330255d7.chunk.js.map": "/portfolio/static/js/633.330255d7.chunk.js.map",
     "934.c1f598ea.chunk.js.map": "/portfolio/static/js/934.c1f598ea.chunk.js.map",
@@ -45,7 +45,7 @@
     "905.d39d78cf.chunk.css.map": "/portfolio/static/css/905.d39d78cf.chunk.css.map"
   },
   "entrypoints": [
-    "static/css/main.3078b9c6.css",
+    "static/css/main.5cdd2d10.css",
     "static/js/main.f2f1aca7.js"
   ]
 }
