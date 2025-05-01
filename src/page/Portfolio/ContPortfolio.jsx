@@ -7,18 +7,20 @@ import image2 from "../../Main/image/6584233333.jpg"
 
 function Portfolio() {
     return (
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-                <PortfolioItem to="/portfolio/shop" image={image1} title="Shop" description="Магазин по продажам картин и искусства..." />
-                <PortfolioItem to="/" image={image2} title="Shop" description="Магазин по продажам картин и искусства..." />
-                <PortfolioItem to="/portfolio/shop" image={image1} title="Shop" description="Магазин по продажам картин и искусства..." />
-                <PortfolioItem to="/" image={image2} title="Shop" description="Магазин по продажам картин и искусства..." />
-                <PortfolioItem to="/portfolio/shop" image={image1} title="Shop" description="Магазин по продажам картин и искусства..." />
-                <PortfolioItem to="/" image={image2} title="Shop" description="Магазин по продажам картин и искусства..." />
-                <PortfolioItem to="/portfolio/shop" image={image1} title="Shop" description="Магазин по продажам картин и искусства..." />
-                <PortfolioItem to="/" image={image2} title="Shop" description="Магазин по продажам картин и искусства..." />
+        <section className="p-1 bg-gray-800">
+            <div className="container mx-auto px-4 sm:px-6 lg:px-8">
+                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+                    <PortfolioItem to="/portfolio/shop" image={image1} title="Shop" description="Магазин по продажам картин и искусства..." />
+                    <PortfolioItem to="/" image={image2} title="Shop" description="Магазин по продажам картин и искусства..." />
+                    <PortfolioItem to="/portfolio/shop" image={image1} title="Shop" description="Магазин по продажам картин и искусства..." />
+                    <PortfolioItem to="/" image={image2} title="Shop" description="Магазин по продажам картин и искусства..." />
+                    <PortfolioItem to="/portfolio/shop" image={image1} title="Shop" description="Магазин по продажам картин и искусства..." />
+                    <PortfolioItem to="/" image={image2} title="Shop" description="Магазин по продажам картин и искусства..." />
+                    <PortfolioItem to="/portfolio/shop" image={image1} title="Shop" description="Магазин по продажам картин и искусства..." />
+                    <PortfolioItem to="/" image={image2} title="Shop" description="Магазин по продажам картин и искусства..." />
+                </div>
             </div>
-        </div>
+        </section>
     );
 }
 

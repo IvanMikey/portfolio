@@ -1,6 +1,57 @@
-# Getting Started with Create React App
+# Portfolio Frontend
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is the frontend part of my portfolio project, built with React and modern web technologies.
+
+## Technologies Used
+
+- React 18
+- Tailwind CSS for styling
+- Framer Motion for animations
+- React Router for navigation
+- Axios for API requests
+- Socket.IO for real-time features
+- Various UI components (React Select, React Slick, etc.)
+
+## Features
+
+- Modern and responsive design
+- Smooth animations and transitions
+- Real-time updates
+- Interactive UI components
+- Form handling with React Hook Form
+- Custom scrollbars
+- Loading states and spinners
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (v14 or higher)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository
+```bash
+git clone https://github.com/IvanMikey/portfolio.git
+cd front-end
+```
+
+2. Install dependencies
+```bash
+npm install
+# or
+yarn install
+```
+
+3. Start the development server
+```bash
+npm start
+# or
+yarn start
+```
+
+The application will be available at [http://localhost:3000](http://localhost:3000)
 
 ## Available Scripts
 
@@ -68,3 +119,35 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## Project Structure
+
+```
+front-end/
+├── public/          # Static files
+├── src/            # Source files
+│   ├── components/ # React components
+│   ├── pages/      # Page components
+│   ├── styles/     # CSS/SCSS files
+│   ├── utils/      # Utility functions
+│   └── App.js      # Main application component
+├── package.json    # Project dependencies
+└── README.md       # Project documentation
+```
+
+## Contributing
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Contact
+
+Ivan Mikey - [your-email@example.com](mailto:your-email@example.com)
+Project Link: [https://github.com/IvanMikey/portfolio](https://github.com/IvanMikey/portfolio)
