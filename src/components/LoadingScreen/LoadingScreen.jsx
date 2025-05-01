@@ -11,7 +11,7 @@ const LoadingScreen = () => {
             if (progress < 100) {
                 setProgress(prev => Math.min(prev + 2, 100));
             } else {
-                navigate('/portfolio/home');
+                navigate('/home');
             }
         }, 30);
 

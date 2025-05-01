@@ -129,7 +129,7 @@ const AboutUs = () => {
                             className="flex gap-4"
                         >
                             <motion.a
-                                href="/portfolio/portfolio"
+                                href="#/portfolio"
                                 whileHover={{ scale: 1.05 }}
                                 whileTap={{ scale: 0.95 }}
                                 className="px-8 py-3 bg-orange-400 text-white rounded-lg font-semibold hover:bg-orange-500 transition-colors duration-300 text-center"
