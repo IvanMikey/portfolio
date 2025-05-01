@@ -105,7 +105,7 @@ function Navbar() {
                     whileHover={{ scale: 1.05 }}
                     className="text-orange-400 font-bold text-2xl md:text-3xl"
                 >
-                    <Link to="/home">
+                    <Link to="/portfolio/home">
                         <h1>Portfolio</h1>
                     </Link>
                 </motion.div>
